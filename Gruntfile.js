@@ -302,7 +302,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-concat');
-  grunt.loadNpmTasks('grunt-contrib-compress');
+  // grunt.loadNpmTasks('grunt-contrib-compress');
   grunt.loadNpmTasks('grunt-shopify-theme-settings');
 
   // Default task.
