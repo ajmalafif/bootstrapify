@@ -251,18 +251,18 @@ module.exports = function(grunt) {
         }
       }
     },
-    compress: {
-      zip: {
-        options: {
-          archive: 'Bootstrapify.zip'
-        },
-        files: [{
-          expand: true,
-          cwd: './theme/',
-          src: ['assets/**', 'config/**', 'layout/**', 'snippets/**', 'templates/**']
-        }]
-      }
-    },
+    // compress: {
+    //   zip: {
+    //     options: {
+    //       archive: 'Bootstrapify.zip'
+    //     },
+    //     files: [{
+    //       expand: true,
+    //       cwd: './theme/',
+    //       src: ['assets/**', 'config/**', 'layout/**', 'snippets/**', 'templates/**']
+    //     }]
+    //   }
+    // },
     watch: {
       gruntfile: {
         files: '<%= jshint.gruntfile.src %>',
@@ -306,5 +306,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-shopify-theme-settings');
 
   // Default task.
-  grunt.registerTask('default', ['jshint', 'uglify', 'copy', 'concat', 'sass', 'shopify_theme_settings', 'compress']);
+  // grunt.registerTask('default', ['jshint', 'uglify', 'copy', 'concat', 'sass', 'shopify_theme_settings', 'compress']);
+  grunt.registerTask('default', ['jshint', 'uglify', 'copy', 'concat', 'sass', 'shopify_theme_settings']);
 };
