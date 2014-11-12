@@ -284,10 +284,10 @@ module.exports = function(grunt) {
         files: 'dist/scss/*.scss',
         tasks: ['sass']
       },
-      compress: {
-        files: ['theme/**'],
-        tasks: ['compress']
-      },
+      // compress: {
+      //   files: ['theme/**'],
+      //   tasks: ['compress']
+      // },
       shopify_theme_settings: {
         files: 'settings/*.yml',
         tasks: ['shopify_theme_settings']
