@@ -4,6 +4,14 @@ Each developer should create their own `theme_id` at least and work on that temp
 
 For live site, perhaps use `master` branch, or maybe best is to separate into `production` or `live` branch.
 
+There's discussion on how Bootstrapify team themselves (and others like DiscoLabs) do their workflow here:
+
+https://github.com/luciddesign/bootstrapify/issues/216
+
+And here the solution I use personally (as suggested by user @gavinballard) for my git hook `post-checkout` workflow:
+
+https://gist.github.com/ajmalafif/dd5877e0d46838432273
+
 # Bootstrapify 3.1.1
 
 Bootstrapify is an open-source base theme for [Shopify](http://www.shopify.com?ref=lucid-design) that makes it super quick and easy for developers to start building amazing, responsive themes without having to do all the fiddly, repetitive setup work when starting from scratch.
