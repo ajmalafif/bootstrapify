@@ -4,7 +4,7 @@ Each developer should create their own `theme_id` at least and work on that temp
 
 For live site, perhaps use `master` branch, or maybe best is to separate into `production` or `live` branch.
 
-There's discussion on how Bootstrapify team themselves (and others like DiscoLabs) do their workflow here:
+There's a discussion on how Bootstrapify team themselves (and others like DiscoLabs) do their workflow here:
 
 https://github.com/luciddesign/bootstrapify/issues/216
 
